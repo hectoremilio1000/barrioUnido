@@ -1,0 +1,109 @@
+.body3component{
+    background-color: #f1fcff;
+  }
+  
+  ul{
+    padding-inline-start: 0px!important;
+  }
+  
+  .row {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+  }
+  
+  .footer{
+    background-color: #022180;
+  }
+  
+  .copyright{
+    background-color: #d3d3d3;
+    padding: 6px;
+  }
+  
+  .btnSomos{
+    background: #022180;
+  }
+  
+  
+    @media (max-width: 1100px) {  
+      .iniciar_sesion {
+        font-size: 13px;
+      }
+      .registrar_sesion {
+        font-size: 13px;
+      }
+    }
+  
+    @media (max-width: 500px) {  
+      .boton_orina{
+        margin-top: 2.4rem!important;
+      }
+
+      .text-start{
+          font-size:25px!important;
+      }
+  
+      .proximamente{
+        font-size: 20px!important;
+      }
+  
+      .descarga{
+        font-size: 30px;
+      }
+  
+      .imagen_download{
+        width: 150px!important;
+        height: 50px!important;
+      }
+  
+      .imagen_logo{
+        width: 40px;
+      }
+  
+      .btnSomos{
+        font-size: 1rem!important;
+        padding: .4rem .4rem!important;
+      }
+  
+      .nombre_logo{
+        width: 80px;
+      }
+      .bloque_sesion{
+      margin: 0;
+      }
+  
+      .iniciar_sesion {
+        font-size: 10px;
+      }
+      .registrar_sesion {
+        font-size: 10px;
+      }
+  
+      /*footer*/
+      .atrevete_footer{
+        font-size: 14px!important;
+      }
+      .descripcion_footer{
+        font-size: 11px!important;
+      }
+      
+  
+    }
+  
+  
+  /*revisar*/
+  
+  .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
