@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "bootstrap": "4.6",
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.6.2",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "react": "^17.0.1",
