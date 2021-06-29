@@ -33,6 +33,9 @@
         font-size: 13px;
       }
     }
+    .text-start{
+      font-size:25px!important;
+  }
   
     @media (max-width: 500px) {  
       .boton_orina{

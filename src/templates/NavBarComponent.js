@@ -13,7 +13,7 @@ return(
       </div>
         <div className="d-flex flex-row align-items-center col-lg-2 col-md-2 col-sm-6 col-6 justify-content-end bloque_sesion">
           <div className="m-2">
-            <Link to="/administrador" className="text-dark font-weight-bold iniciar_sesion">Administrador</Link>
+            <Link to="/Administrador" className="text-dark font-weight-bold iniciar_sesion">Administrador</Link>
           </div>
         </div>
     </nav>

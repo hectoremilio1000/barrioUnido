@@ -1,12 +1,16 @@
 import React from "react";
-import { AnchorLink } from 'gatsby-plugin-anchor-links';
+
+const imagenBanner={
+    id:'1',
+    url:'https://amplify-barriounido-dev-161846-deployment.s3.amazonaws.com/images/banner_barrioUnido.jpg'
+}
 
 
 export default function BannerComponent() {
   return (
     <div className="row banner d-flex justify-content-start " >
       <header className="col jumbotron jumbotron-fluid" style={{
-        backgroundImage: `url("https://imagenesrutalab.s3.amazonaws.com/banner_rutalab_nuevo.jpg")`,
+        backgroundImage: `url(${imagenBanner.url})`,
         backgroundSize: "cover",
         height: "80vh",
         backgroundPosition:"center"
