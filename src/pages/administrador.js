@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Form, Col } from 'react-bootstrap'
-import Row from "react-bootstrap/row"
-import Container from "react-bootstrap/container"
+import Row from "react-bootstrap/Row"
+import Container from "react-bootstrap/Container"
 import Button from "react-bootstrap/Button"
 
 
@@ -97,7 +97,7 @@ const Administrador = ()=>{
             </Form.Group>
 
             <Button type="submit" variant="success" style={{ float: "left" }} >
-              Send
+              Guardar
             </Button>
           </Form>
             {fields.map(field =>
